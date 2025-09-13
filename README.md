@@ -20,7 +20,7 @@ To install, just clone the repo into the plugins folder:
 git clone https://github.com/alexanderjeurissen/ranger_devicons ~/.config/ranger/plugins/ranger_devicons
 ```
 
-Then execute the following `echo "default_linemode devicons" >> $HOME/.config/ranger/rc.conf` (or wherever your `rc.conf` is located).
+This should be sufficient to activate the plugin and add a column of devicons to any linemode you may be using. Since changing to the new method (#146), the `default_linemode devicons` command in your `ranger/rc.conf` is not needed anymore and should be removed.
 
 ## Configuration
 
