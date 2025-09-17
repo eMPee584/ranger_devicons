@@ -16,4 +16,5 @@
                                           [48;5;202m    [48;5;203m    [48;5;204m    [48;5;205m    [48;5;206m    [48;5;207m    [48;5;165m    [49m
                                             [48;5;196m    [48;5;197m    [48;5;198m    [48;5;199m    [48;5;200m    [48;5;201m    [49m
 
-    ( generated using https://github.com/urwid/urwid/blob/master/examples/palette_test.py )
+                  generated using
+        https://github.com/urwid/urwid/blob/master/examples/palette_test.py
