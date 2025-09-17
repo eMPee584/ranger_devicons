@@ -19,6 +19,8 @@ from ranger.core.shared import SettingsAware
 # up to 5 years: green > cyan
 # up to 20 years: cyan > blue
 # up to 50 years: blue > white
+#
+# (see terminal-256-color-cube.png for a visual rendition)
 
 # Define time thresholds in seconds
 _thresholds = [
