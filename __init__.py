@@ -31,7 +31,8 @@ def check_use_color():
 
     if prev_val != USE_COLOR:
         fm.garbage_collect(-1)
-        fm.reload_cwd()
+        if fm.thisdir is not None:
+            fm.reload_cwd()
 
 
 # pylint: disable=invalid-name,protected-access,fixme
