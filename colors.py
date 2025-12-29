@@ -79,6 +79,8 @@ def color_from_file(file):  # pylint: disable=too-many-locals
     """
     if file.stat is None:
         return rgb_to_term_palette(1, 0, 0)
+    if file.stat.st_mtime == 0:
+        return rgb_to_term_palette(0, 1, 1)
 
     now = time.time()
     age = now - file.stat.st_mtime
